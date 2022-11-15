@@ -1,0 +1,14 @@
+
+body{
+    background-color: #f1f2f5;
+    margin: 0;
+}
+.bar{
+    background-color: #fff;
+    height: 56px;
+    width: 100%;
+   
+}
+.bar div img{
+height: 53px;
+}

@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    margin-top: 100px;
+    background-color: #f1f2f5;
+}
+
+
+.facebook {
+    width: 800px;
+    height: 100px;
+}
+
+.guide {
+    width: 1000px;
+    height: 400px;
+    
+    /* padding-top: 76px; */
+    font-size: 27px;
+    color: #1c1e21;
+    margin: 0;
+    margin-right: 0px;
+}
+
+.guide img {
+    width: 303px;
+}
+
+#T1 {
+    width: 500px;
+    padding: 0;
+    margin-left: 243px;
+    margin-top: 176px;
+}
+
+.guide p {
+    width: 500px;
+    
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    position: relative;
+    top: -45px;
+    right: -26px;
+    letter-spacing: 1px;
+    line-height: 32px;
+}
+
+.rogin {
+    width: 380px;
+    height: 350px;
+    background-color: #fff;
+    position: relative;
+    top: -278px;
+    right: -853px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+
+.menu {
+    list-style: none;
+    padding-left: 23px;
+    padding-top: 5px;
+}
+
+.box {
+    width: 330px;
+    box-sizing: border-box;
+    border: 1px solid #dddfe2;
+    font-size: 17px;
+    border-radius: 6px;
+    padding: 10px;
+    height: 48px;
+    margin-top: 15px;
+}
+
+.box:focus {
+    outline: 1px solid #1877f2;
+}
+
+.roginbutton {
+    margin-top: 15px;
+    border: 0px;
+    background-color: #1877f2;
+    color: #fff;
+    width: 330px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    height: 48px;
+    font-size: 20px;
+    font-family: inherit;
+
+}
+
+/* .box :active{
+    width: 330px;
+    box-sizing: border-box;
+    border: 1px solid #1877f2;
+   font-size: 17px;
+   border-radius: 6px;
+   padding: 10px;
+   height: 48px;
+   margin-top: 15px;
+} */
+.rogin a {
+
+    font-size: 14px;
+    color: #297eed;
+    position: relative;
+    right: -90px;
+}
+
+#line {
+    width: 333px;
+    height: 1px;
+    background-color: #dddfe2;
+    margin-top: 17px;
+}
+
+.button {
+    margin-left: 100px;
+    margin-top: 25px;
+    border: 0px;
+    background-color: #42b72a;
+    color: #fff;
+    width: 140px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    height: 48px;
+    font-size: 17px;
+    font-family: inherit;
+}
+
+.rogin p {
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.rogin p a {
+    right: 1px;
+    text-decoration: none;
+    color: #1c1e21;
+}
