@@ -31,9 +31,11 @@ body{
     position: absolute;
     left: 50%;
     top: 50%;
+    
     color: white;
     margin-left: -54px;
     margin-top: -48px;
+    transition: all 0.5s;
 }
 
 .card i:nth-of-type(1){
