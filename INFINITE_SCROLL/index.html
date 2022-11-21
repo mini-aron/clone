@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>infiniteScroll</title>
+    <style>
+        html,body{margin: 0;}
+        section .box{
+            height: 500px; background-color: tomato; color: white;
+            box-sizing: border-box; padding: 30px 10px;
+        }
+        section .box:nth-child(2n){background-color: teal;}
+    </style>
+</head>
+<body>
+    
+    <section>
+        <div class="box">1번째 블록</div>
+        <div class="box">2번째 블록</div>
+    </section>
+    <script>
+        var count = 2;
+        window.onscroll = function(){
+            if((window.innerHeight + window.scrollY) >= document.body.offsetHeight){
+                var toAdd = document.createElement("div");
+                toAdd.classList.add("box")
+                toAdd.textContent = `${++count}번째 블록`
+                document.querySelector('section').appendChild(toAdd);
+            }
+        }
+        //window.innerHeight  브라우저에서 실제로 표시되고있는 영역의 높이 즉, 사용자가 보고 있는 영역의 높이
+        // window.scrollY   스크롤이 세로로 얼마나 이동했는지를 px로 나타냄 0부터 시작해서 스크롤을 내릴수록 증가
+        //document.body.offsetHeight   요소의 실제높이(요소의 실제높이 = 보이는 영역+가려진 영역)
+    </script>
+</body>
+</html>
